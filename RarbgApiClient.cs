@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace TorrentAPI
 {
-    class RarbgApiClient
+    public class RarbgApiClient
     {
         private static DateTime LastRequest;
         private readonly string BaseUrl;
